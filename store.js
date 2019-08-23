@@ -8,7 +8,7 @@ const STORE = [
             "Hybrid on-road/off-road bike.",
             "Whatever bike you're comfortable with."
         ],
-        correct: 3,
+        correct: "Whatever bike you're comfortable with."
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const STORE = [
             "Snow.",
             "All of the above"
         ],
-        correct: 4,
+        correct: "All of the above"
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const STORE = [
             "Spandex suit, reflective vest, race numbers.",
             "Tire levers, spare tube, multi-tool and an air pump."
         ],
-        correct: 3,
+        correct: "Tire levers, spare tube, multi-tool and an air pump."
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ const STORE = [
             "As far to the right as you can get and nowhere else.",
             "Down the median."
         ],
-        correct: 0
+        correct: "Anywhere a car can drive, plus bike lanes."
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const STORE = [
             "Every 6 months.",
             "Every year."
         ],
-        correct: 2
+        correct: "Every 6 months."
     },
     {
         id: 6,
@@ -64,7 +64,7 @@ const STORE = [
             "Nighttime only.",
             "Never."
         ],
-        correct: 1,
+        correct: "When you want to be seen better."
     },
     {
         id: 7,
@@ -75,7 +75,7 @@ const STORE = [
             "Reach out and be friendly - it's a jungle out there.",
             "Imagine they don't exist."
         ],
-        correct: 2
+        correct: "Reach out and be friendly - it's a jungle out there."
     },
     {
         id: 8,
@@ -86,7 +86,7 @@ const STORE = [
             "A combination lock.",
             "Chain and padlock."
         ],
-        correct: 1
+        correct: "A U-lock and possibly a cable lock for the tires."
     },
     {
         id: 9,
@@ -97,7 +97,7 @@ const STORE = [
             "No signaling is needed.",
             "With clothes that say \"I'm cool\"."
         ],
-        correct: 1
+        correct: "Point where you are about to go unless unsafe to do so."
     },
     {
         id: 10,
@@ -108,6 +108,6 @@ const STORE = [
            "Road-rage free.",
            "All of the above."
         ],
-        correct: 3
+        correct: "All of the above."
     }
 ];

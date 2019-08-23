@@ -46,6 +46,17 @@ body {
     box-shadow: 5px 3px 3px black;
 }
 
+input[type="radio"] {
+    margin-top: 8px;
+    margin-bottom: auto;
+    padding: 0;
+    float: left;
+}
+
+input[type="radio"]:focus {
+    outline: solid 2px black;
+}
+
 .button:focus {
     box-shadow: 5px 3px 3px black;
     outline: solid 2px black;
@@ -55,7 +66,7 @@ body {
     box-shadow: 5px 3px 3px black;
     background-color: rgb(64,64,64);
     outline: solid 2px black;
-    padding: 13px 23px 7px 17px;
+    padding: 12px 18px 8px 22px;
 }
 
 .icon {
@@ -103,8 +114,12 @@ body {
         height: auto;
         width: 100px;
     }
+
+    .hero {
+        padding: 20px 0px;
+    }
     
     .answer {
-        width: 100%;
+        width: calc(100% - 20px);
     }
 }
