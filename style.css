@@ -55,6 +55,7 @@ body {
     box-shadow: 5px 3px 3px black;
     background-color: rgb(64,64,64);
     outline: solid 2px black;
+    padding: 13px 23px 7px 17px;
 }
 
 .icon {

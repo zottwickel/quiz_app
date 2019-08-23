@@ -21,8 +21,7 @@ function start() {
 
 function nextQuestion() {
     setIndex();
-    $('.hero').empty();
-    $('.questionOn').text(`Question: ${questionOn}/10`);
+    setHero();
     $('.hero').append(`
         <h1 class="questionText">${STORE[questionId].question}</h1>
     `);
@@ -43,6 +42,11 @@ function nextQuestion() {
 function setIndex() {
     questionId = questionOn;
     questionOn++
+};
+
+function setHero() {
+    $('.hero').empty();
+    $('.questionOn').text(`Question: ${questionOn}/10`);
 };
 
 $(function () {
