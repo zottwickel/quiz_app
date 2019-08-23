@@ -110,4 +110,4 @@ const STORE = [
         ],
         correct: 3
     }
-]
+];

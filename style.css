@@ -1,3 +1,109 @@
 * {
     font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.scoreboard {
+    position: fixed;
+    background-color: #696969;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    font-size: 20px;
+}
+
+.hero {
+    margin-top: 60px;
+    background-color: rgb(64,64,64,0.75);
+    padding: 20px;
+    text-align: center;
+}
+
+.score {
+    float: left;
+}
+
+.questionOn {
+    float: right;
+    margin-right: 40px;
+}
+
+.button {
+    font-size: 20px;
+    border: 0px;
+    background-color: #696969;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+}
+
+.button:hover {
+    box-shadow: 5px 3px 3px black;
+}
+
+.button:focus {
+    box-shadow: 5px 3px 3px black;
+    outline: solid 2px black;
+}
+
+.button:active {
+    box-shadow: 5px 3px 3px black;
+    background-color: rgb(64,64,64);
+    outline: solid 2px black;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+.answer {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #696969;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(https://amp.businessinsider.com/images/55522d6e6bb3f78b09baac28-750-563.jpg);
+        background-size: 100%;
+    }
+
+    .hero {
+        width: 67%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon {
+        height: auto;
+        width: 250px;
+    }
+    .answer {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(https://amp.businessinsider.com/images/55522d6e6bb3f78b09baac28-750-563.jpg);
+    }
+
+    .icon {
+        height: auto;
+        width: 100px;
+    }
+    
+    .answer {
+        width: 100%;
+    }
 }
