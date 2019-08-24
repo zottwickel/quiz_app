@@ -47,8 +47,6 @@ body {
 }
 
 input[type="radio"] {
-    margin-top: 8px;
-    margin-bottom: auto;
     padding: 0;
     float: left;
 }
@@ -82,6 +80,20 @@ input[type="radio"]:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+input:checked {
+    border: 10px solid white;
 }
 
 @media screen and (min-width: 768px) {

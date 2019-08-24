@@ -14,7 +14,7 @@ function start() {
             <img class="icon" src="https://etc.usf.edu/clipart/68100/68146/68146_134_w11-1_b_md.gif" alt="A bicycle icon">
             <p class="answer">Get ready to test your knowledge about what it takes to commute via bicycle with this awesome app! When you're ready, push the button below to get started.</p>
             <form id="start">
-                <input class="button" type="submit" value="Continue">
+                <button class="button" type="submit" value="Continue">Continue</button>
             </form>
         </div>
     `);
@@ -41,7 +41,7 @@ function nextQuestion() {
         `);
     });
     $('#answer').append(`
-        <input class="button" type="submit" value="Submit">
+        <button class="button" type="submit" value="Submit">Submit</button>
     `);
     $('#answer').on("submit", function(e) {
         e.preventDefault();
@@ -61,7 +61,7 @@ function correctAnswer() {
         <img class="icon" src="https://cdn.pixabay.com/photo/2012/04/24/11/19/bike-39393_960_720.png" alt="An affirmative bicycle icon">
         <p class="answer">You answered correctly! Your score is now ${score}/10!</p>
         <form id="continue">
-            <input class="button" type="submit" value="Continue">
+            <button class="button" type="submit" value="Continue">Continue</button>
         </form>
     `);
     $('#continue').on("click", function(e) {
@@ -81,7 +81,7 @@ function wrongAnswer() {
         <img class="icon" src="https://cdn.pixabay.com/photo/2013/04/01/11/00/no-biking-98885_960_720.png" alt="A negative bicycle icon">
         <p class="answer">You answered incorrectly. The correct answer was \"${STORE[questionId].correct}\"</p>
         <form id="continue">
-            <input class="button" type="submit" value="Continue">
+            <button class="button" type="submit" value="Continue">Continue</button>
         </form>
     `);
     $('#continue').on("click", function(e) {
@@ -100,7 +100,7 @@ function end() {
         <h1 class="questionText">Congratulations!</h1>
         <p class="answer">You have completed the Bike Commute Quiz! Your score was <em>${score}/10!</em> You can restart the quiz to try for a better score below.</p>
         <form id="restart">
-            <input class="button" type="submit" value="Restart">
+            <button class="button" type="submit" value="Restart">Restart</button>
         </form>
     `);
     $('#restart').on("click", function(e) {
