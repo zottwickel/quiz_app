@@ -58,7 +58,7 @@ function correctAnswer() {
     setHero();
     $('.hero').append(`
         <h1 class="questionText">Correct!</h1>
-        <img class="icon" src="https://cdn.pixabay.com/photo/2012/04/24/11/19/bike-39393_960_720.png">
+        <img class="icon" src="https://cdn.pixabay.com/photo/2012/04/24/11/19/bike-39393_960_720.png" alt="An affirmative bicycle icon">
         <p class="answer">You answered correctly! Your score is now ${score}/10!</p>
         <form id="continue">
             <input class="button" type="submit" value="Continue">
@@ -78,7 +78,7 @@ function wrongAnswer() {
     setHero();
     $('.hero').append(`
         <h1 class="questionText">Sorry! Wrong answer.</h1>
-        <img class="icon" src="https://cdn.pixabay.com/photo/2013/04/01/11/00/no-biking-98885_960_720.png">
+        <img class="icon" src="https://cdn.pixabay.com/photo/2013/04/01/11/00/no-biking-98885_960_720.png" alt="A negative bicycle icon">
         <p class="answer">You answered incorrectly. The correct answer was \"${STORE[questionId].correct}\"</p>
         <form id="continue">
             <input class="button" type="submit" value="Continue">
