@@ -44,6 +44,7 @@ body {
 
 .button:hover {
     box-shadow: 5px 3px 3px black;
+    cursor: pointer;
 }
 
 input[type="radio"] {
@@ -94,6 +95,14 @@ input {
 
 input:checked {
     border: 10px solid white;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+label:hover {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
